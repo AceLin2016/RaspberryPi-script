@@ -13,10 +13,10 @@ use command on your terminal:
 > 
 
 ### Note:
-  It maybe not work, because rc.local has `exit 0` on the last line of file.
-  So, it will add command under `exit 0`.
-  Use `$ cat /etc/rc.local` to check it.
-  If so, the best way maybe `$ sudo vim /etc/rc.local`, delete the line of `exit 0`
+It maybe not work, because rc.local has `exit 0` on the last line of file.
+So, it will add command under `exit 0`.
+Use `$ cat /etc/rc.local` to check it.
+If so, the best way maybe `$ sudo vim /etc/rc.local`, delete the line of `exit 0`
 and add `exit 0` on the last line of this file.
 
 
