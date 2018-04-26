@@ -1,5 +1,9 @@
 # bash script manage wifi
 
+**Verified platform    :** Respberry Pi zero W
+**Platform environment :** Rasbian distribution (stretch)
+
+
  *autoSwitch-WiFi*  on  directory  `/usr/local/sbin/`
 
 
@@ -25,4 +29,5 @@ and add `exit 0` on the last line of this file.
 
 
 ----
-two files both need for WifiManage.
+**two files both need for WifiManage.**
+
