@@ -1,0 +1,24 @@
+# bash script manage wifi
+
+ *autoSwitch-WiFi*  on  directory  `/usr/local/sbin/`
+
+
+
+~~*rc.local*  on  directory `/etc/`~~
+
+## how to use WiFi script
+use command on your terminal:
+> 
+> $ sudo echo "/usr/local/sbin/autoSwitch-WiFid &" >> /etc/rc.local 
+> 
+
+Note:
+  it maybe not work, because rc.local has `exit 0` on the last line of file.
+so, it will add command under `exit 0`
+  use `$ cat /etc/rc.local` to check it.
+  If so, the best way maybe `$ sudo vim /etc/rc.local`, delete the line of `exit 0`
+and add `exit 0` on the last line of this file.
+
+
+----
+two files both need for WifiManage.
