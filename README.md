@@ -2,9 +2,11 @@
 树莓派相关配置&脚本，适用于rpi2B及3B硬件。
 
 ## RPiManaged
-新增了在不同环境（不同物理位置）**自动**切换WiFi的脚本。
-Verified platform: Respberry Pi zero W
-platform environment: Rasbian distribution (stretch)
+新增了在不同环境（不同物理位置）**自动**切换WiFi的脚本。 
+
+Verified platform: Respberry Pi zero W 
+
+platform environment: Rasbian distribution (stretch) 
 
 ## rpi-backup
 备份系统成一个可烧录的image，详细说明参见：http://conanwhf.github.io/2016/08/25/rpi-cloneimg/
